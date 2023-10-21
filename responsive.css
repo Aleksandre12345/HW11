@@ -1,0 +1,104 @@
+@media (width > 768px){
+    header{
+        column-gap: 460px;
+        padding-left: 20px;
+    }
+    .maindiv{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .textbox1{
+        margin-left: 40px;
+    }
+    .imgmobile{
+        display: none;
+    }
+    .imgtablet{
+        display: block;
+        margin-top: -120px;
+        margin-left: -10px;
+    }
+    .boxes{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        justify-content: center;
+        row-gap: 56px;
+        column-gap: 10px;
+        margin-bottom: 86px;
+    }
+    .orangebox{
+        width: 339px;
+        height: 259px;
+        flex-shrink: 0;
+        padding: 56px 21px 139px 32px;
+    }
+
+    /* :D :D :D  */
+    
+    .box5 {
+        margin-bottom: 1px;
+    }
+    footer{
+        column-gap: 460px;
+        padding-left: 40px;
+    }
+}
+
+@media (width > 1440px){
+    header{
+        column-gap: 865px;
+        padding-top: 20px;
+    }
+    .button1{
+        width: 167px;
+        height: 56px;
+        flex-shrink: 0;
+    }
+    .maindiv{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .textbox1{
+        margin-left: 165px;
+        margin-top: 120px;
+    }
+    .imgmobile{
+        display: none;
+    }
+    .imgtablet{
+        display: none;
+    }
+    .imgdesktop{
+        display: block;
+        margin-left: 105px;
+        margin-top: -152px;
+    }
+    h2{
+        width: 500px;
+        font-size: 56px;
+    }
+    h3{
+        width: 445px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .boxes{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        column-gap: 30px;
+        row-gap: 80px;
+        justify-content: center;
+        margin-top: 134px;
+        margin-bottom: 140px;
+    }
+    footer{
+        padding-left: 165px;
+        column-gap: 930px;
+    }
+}
